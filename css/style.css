@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    background :white;
+    width:200px ;
+    height:200px ;
+    position: relative;
+
+    animation-name: cool-ani;
+    animation-duration: 4s;
+}
+
+@keyframes cool-ani{
+    0% {
+        background-color: white;
+    }
+
+    25%{
+        background-color: teal;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: tan;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
