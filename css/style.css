@@ -15,21 +15,31 @@ body{
 @keyframes cool-ani{
     0% {
         background-color: white;
+        left: 0px;
+        top: 0px;
     }
 
     25%{
         background-color: teal;
+        left: 300px;
+        top: 0px;
     }
 
     50%{
         background-color: blue;
+        left:300px;
+        top:300px;
     }
 
     75%{
         background-color: tan;
+        left: 0px;
+        top: 300px;
     }
 
     100%{
+        top: 0px;
+        left: 0px;
         background-color: white;
     }
 }
